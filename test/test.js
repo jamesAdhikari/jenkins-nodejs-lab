@@ -3,6 +3,6 @@ var app = require('../app.js');
 
 describe('GET /', function() {
   it('respond with nodejs-lab', function(done) {
-    request(app).get('/').expect('this page is maintain by kp adhikari from ohio', done);
+    request(app).get('/').expect('this page is maintain by kp adhikari from ohio no body can mess with me', done);
   });
 });
